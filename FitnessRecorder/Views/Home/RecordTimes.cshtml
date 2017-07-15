@@ -1,0 +1,6 @@
+﻿<h1>Record Your Times</h1>
+
+@using (Html.BeginForm("RecordTimes", "Home", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+}
